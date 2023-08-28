@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    width:100%;
+    height:100%;
+    background-color: #201E1F;
+}
+.heading{
+    width:100%;
+    padding:2vw;
+    color:#FF4000;
+    background-color: #FEEFDD;
+    text-align: center;
+}
+.container{
+    width:90%;
+    display: flex;
+    margin:2% auto;
+    border:2px solid #FF4000;
+}
+.ctrl-box{
+    width:50%;
+    height:25vh;
+   
+    color:white;
+    display: flex;
+   
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+}
+.ctrl-box input{
+    height:7vh;
+    font-size:4vh;
+}
+
+.text-box{
+    width:50%;
+    height:25vh;
+    display: grid;
+    place-items: center;
+    color:#FF4000;
+    font-weight: 800;
+    font-size: 2vw;
+    font-family: monospace;
+}
